@@ -1,0 +1,49 @@
+Note to reader
+- Intended as a very rudimentary 'roadmap' to help guide and focus my work. Ultimately falls short of a real roadmap in many ways
+
+Project start
+- create GitHub and local repositories for this project
+- 'link' those repositories together
+- push existing materials to the GitHub repository (likely just this roadmap)
+- add project to GitHub
+	- create GitHub and local repositories for old tic tac toe project
+	- 'link' those two repositories together
+	- push materials to the github repository
+
+Landing/Home Page: absolute minimum
+- Node.js server is running and reachable
+- really basic content
+	- Title 
+	- no CSS yet
+	- no links to other pages
+- Design content delivery (e.g. template strategy, what is static) but don't implement anything
+	- Update this roadmap accordingly
+
+Sample projects page
+- basic plumbing for the router
+- create projects page 
+- link from the home page
+- Title that links back to home page (not marked as a link)
+- Design home page
+	- Update roadmap accordingly
+	
+Update Home page
+- implement the main title bar including navigation
+- TBD based on design work down in the previous deliverable
+
+TicTacToe Page
+- Create TicTacToe page
+	- Just a title that links back to home page
+- link from the home page
+- update router
+- Future design work based on features in roadmap
+	- design TicTacToe page
+	- design tictactoe architecture
+
+Basic TicTacToe game
+- implement the same feature set as the original project but client/server and using the updated 
+
+Later (not in 'roadmap' yet)
+
+
+********* Finished Work *********
