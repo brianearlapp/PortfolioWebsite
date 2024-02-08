@@ -1,21 +1,13 @@
 Note to reader
 - Intended as a very rudimentary 'roadmap' to help guide and focus my work. Ultimately falls short of a real roadmap in many ways
 
-Project start
-- create GitHub and local repositories for this project
-- 'link' those repositories together
-- push existing materials to the GitHub repository (likely just this roadmap)
-- add project to GitHub
-	- create GitHub and local repositories for old tic tac toe project
-	- 'link' those two repositories together
-	- push materials to the github repository
-
 Landing/Home Page: absolute minimum
 - Node.js server is running and reachable
 - really basic content
 	- Title 
 	- no CSS yet
 	- no links to other pages
+- first draft of UI design
 - Design content delivery (e.g. template strategy, what is static) but don't implement anything
 	- Update this roadmap accordingly
 
@@ -43,7 +35,23 @@ TicTacToe Page
 Basic TicTacToe game
 - implement the same feature set as the original project but client/server and using the updated 
 
-Later (not in 'roadmap' yet)
-
+Potential additional features (not in 'roadmap' yet)
+- TTT play against another person (random person)
+	- play against a friend (select person)
+	- play against the computer (possible normal and easy difficulty)
+	- chat with other player
+- Resume
+	- Display hard coded content (basic)
+	- Admin to add new content (requiring Admin log in)
 
 ********* Finished Work *********
+
+Project start (create repositories)
+- create GitHub and local repositories for this project
+- 'link' those repositories together
+- push existing materials to the GitHub repository (likely just this roadmap)
+- add project to GitHub
+	- create GitHub and local repositories for old tic tac toe project
+	- 'link' those two repositories together
+	- push materials to the github repository
+
