@@ -1,0 +1,17 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "** Portfolio Website ReadMe **",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
