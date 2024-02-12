@@ -1,27 +1,34 @@
-Note to reader
-- Intended as a very rudimentary 'roadmap' to help guide and focus my work. Ultimately falls short of a real roadmap in many ways
+********* Note to reader *********
+- Intended as a very rudimentary 'roadmap' to help guide and focus my work. more of a backlog than an actual roadmap
 
-Landing/Home Page: absolute minimum
-- Node.js server is running and reachable
-- really basic content
-	- Title 
-	- no CSS yet
-	- no links to other pages
-- first draft of UI design
-- Design content delivery (e.g. template strategy, what is static) but don't implement anything
-	- Update this roadmap accordingly
 
-Sample projects page
-- basic plumbing for the router
-- create projects page 
-- link from the home page
-- Title that links back to home page (not marked as a link)
-- Design home page
-	- Update roadmap accordingly
+********* Backlog *********
+
+Template implementation
+- select a template engine
+- move the existing title content to a template
+
+Remaining pages
+- creat pages and subpages 
+	- Tic Tac Toe (sub to Games page)
+	- Resume
+		- Full Stack Developer
+		- Product Management Leader
+		- Partner Management
+	- Code Examples
+- Implement or update routers
+- add new links to the template
+
+Basic CSS
+- implement a static folder
+- create a css file that removes the link markings in the Title
+
+Title/Menu bar
+- Title menu bar implementation
+	- create a menu bar
+	- format title and title area better
 	
 Update Home page
-- implement the main title bar including navigation
-- TBD based on design work down in the previous deliverable
 
 TicTacToe Page
 - Create TicTacToe page
@@ -36,6 +43,12 @@ Basic TicTacToe game
 - implement the same feature set as the original project but client/server and using the updated 
 
 Potential additional features (not in 'roadmap' yet)
+- Design home page
+	- Update roadmap accordingly
+- first draft of UI design
+	- Update this roadmap accordingly
+- Design content delivery (e.g. template strategy, what is static) but don't implement anything
+	- Update this roadmap accordingly
 - TTT play against another person (random person)
 	- play against a friend (select person)
 	- play against the computer (possible normal and easy difficulty)
@@ -43,6 +56,7 @@ Potential additional features (not in 'roadmap' yet)
 - Resume
 	- Display hard coded content (basic)
 	- Admin to add new content (requiring Admin log in)
+
 
 ********* Finished Work *********
 
@@ -55,3 +69,17 @@ Project start (create repositories)
 	- 'link' those two repositories together
 	- push materials to the github repository
 
+Router piping: basic
+- Node.js server is running and reachable
+- router the home page
+- really basic content
+	- Title 
+	- no CSS yet
+	- links to main page
+
+Router piping: games page
+- router for the games page
+	- only route to the root
+- Update home page and create games
+	- Title that links back to root
+	- links to home and games pages
