@@ -5,7 +5,7 @@ const gamesRouter = Router();
 const pageName = "Games";
 
 gamesRouter.get('/', (request, response) => {
-    response.send('header', {
+    response.render('header', {
         page: pageName
     });
 });
