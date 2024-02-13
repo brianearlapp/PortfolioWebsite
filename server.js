@@ -4,6 +4,9 @@ import { gamesRouter } from './Games/gamesRouter.js';
 
 const app = express();
 
+app.set('view engine', 'ejs');
+app.set('views', './Templates');
+
 app.use('/home', homeRouter);
 app.use('/games', gamesRouter);
 
