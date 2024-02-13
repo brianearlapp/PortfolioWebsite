@@ -4,31 +4,31 @@
 
 ********* Backlog *********
 
-Template implementation
-- select a template engine
-- move the existing title content to a template
-
-Remaining pages
+Create Subpages
 - creat pages and subpages 
-	- Tic Tac Toe (sub to Games page)
-	- Resume
-		- Full Stack Developer
-		- Product Management Leader
+	- Games
+		- Tic Tac Toe
+	- Resumes
+		- Software Development
+		- Product Management
 		- Partner Management
-	- Code Examples
-- Implement or update routers
-- add new links to the template
+- Implement routers
+- render pages using template
 
 Basic CSS
 - implement a static folder
 - create a css file that removes the link markings in the Title
+- arrange links vertically
+- indent subpage links
 
 Title/Menu bar
 - Title menu bar implementation
 	- create a menu bar
 	- format title and title area better
 	
-Update Home page
+Home page content
+- write content 
+- layout page
 
 TicTacToe Page
 - Create TicTacToe page
@@ -83,3 +83,14 @@ Router piping: games page
 - Update home page and create games
 	- Title that links back to root
 	- links to home and games pages
+
+Template implementation
+- select a template engine
+- move the existing title content to a template
+
+Remaining top level pages
+- creat pages and subpages 
+	- Resume
+	- Code Examples
+- Implement routers
+- render pages using template
