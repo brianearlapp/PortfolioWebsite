@@ -3,13 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <title>Brian App - <%= page %></title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />        
     </head>
     <body>
         <h1><a href="/home" class="titleLink">Brian App - Software Development Portfolio</a></h1>
-        <a href="/home">Home</a>
-        <a href="/games">Games</a>
-        <a href="/resumes">Resumes</a>
-        <a href="/codesamples">Code Samples</a>
+        <div class="menuDiv">
+            <div class="menuLinkDiv">
+                <a href="/home" class="menuLink">Home</a>
+            </div>
+        </div>
+        <div class="menuDiv">
+            <div class="menuLinkDiv">
+                <a href="/games" class="menuLink">Games</a>
+            </div>
+            <div class="menuLinkDiv">
+                <a href="/games/tictactoe" class="menuSubLink">Tic Tac Toe</a>
+            </div>
+        </div>
+        <div class="menuDiv">
+            <div class="menuLinkDiv">
+                <a href="/resumes" class="menuLink">Resumes</a>
+            </div>
+            <div class="menuLinkDiv">
+                <a href="/resumes/softwaredev" class="menuSubLink">Software Development</a>
+            </div>
+            <div class="menuLinkDiv">
+                <a href="/resumes/productmanagement" class="menuSubLink">Product Management</a>
+            </div>
+            <div class="menuLinkDiv">
+                <a href="/resumes/partnermanagement" class="menuSubLink">Partner Management</a>
+            </div>
+        </div>
+        <div class="menuDiv">
+            <div class="menuLinkDiv">
+                <a href="/codesamples" class="menuLink">Code Samples</a>
+            </div>
+        </div>
     </body>
 </html>

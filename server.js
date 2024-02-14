@@ -10,6 +10,8 @@ import { codeSamplesRouter } from './CodeSamples/codeSamplesRouter.js';
 const app = express();
 
 app.use(express.static(`${dirname(fileURLToPath(import.meta.url))}/Static`));
+app.use('/games', express.static(`${dirname(fileURLToPath(import.meta.url))}/Static`));
+app.use('/resumes', express.static(`${dirname(fileURLToPath(import.meta.url))}/Static`));
 
 app.set('view engine', 'ejs');
 app.set('views', './Templates');

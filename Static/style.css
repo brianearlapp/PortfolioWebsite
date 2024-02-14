@@ -13,3 +13,19 @@
 .titleLink:hover {
     color: black;
 }
+
+.menuDiv {
+    float: left;    
+    display: block;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.menuLink {
+    font-size: 20px;
+}
+
+.menuSubLink {
+    padding-left: 15px;
+    font-size: 15px;
+}
