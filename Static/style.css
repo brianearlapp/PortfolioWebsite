@@ -1,31 +1,70 @@
 .titleLink {
     text-decoration: none;
 }
-.titleLink:link {
-    color: black;
-}
-.titleLink:visited {
-    color: black;
-}
-.titleLink:active {
-    color: black;
-}
-.titleLink:hover {
+.titleLink :link, :visited, :active, :hover {
     color: black;
 }
 
-.menuDiv {
-    float: left;    
+.topOfPageBar {
+    position: sticky;
+    top: 0;
+    left: 0;
     display: block;
-    width: 180px;
-    margin-left: 10px;
+    background-color: blue;
 }
 
-.menuLink {
+.navBarContainer {
+    background-color: green;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+.navBarContainer a {
+    float:left;
+    padding: 10px 10px;
     font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
-.menuSubLink {
-    padding-left: 15px;
-    font-size: 15px;
+.dropdown-Container {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-Container, .dropdownButton {
+    background-color: inherit;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-Content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-Content a {
+    float: none;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-Container:hover .dropdown-Content {
+    display: block;
+}
+
+.firstElementAfterTopBar {
+    clear: left;
 }
