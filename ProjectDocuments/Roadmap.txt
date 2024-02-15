@@ -4,47 +4,23 @@
 
 ********* Backlog *********
 
-Create Subpages
-- creat pages and subpages 
-	- Games
-		- Tic Tac Toe
-	- Resumes
-		- Software Development
-		- Product Management
-		- Partner Management
-- Implement routers
-- render pages using template
-
-Basic CSS
-- implement a static folder
-- create a css file that removes the link markings in the Title
-- arrange links vertically
-- indent subpage links
-
 Title/Menu bar
 - Title menu bar implementation
 	- create a menu bar
 	- format title and title area better
 	
-Home page content
-- write content 
-- layout page
-
 TicTacToe Page
-- Create TicTacToe page
-	- Just a title that links back to home page
-- link from the home page
-- update router
 - Future design work based on features in roadmap
 	- design TicTacToe page
 	- design tictactoe architecture
-
-Basic TicTacToe game
-- implement the same feature set as the original project but client/server and using the updated 
+- implement the same feature set as the original project but client/server and using the updated architecture
 
 Potential additional features (not in 'roadmap' yet)
-- Design home page
-	- Update roadmap accordingly
+- Home page content
+	- Design home page
+		- Update roadmap accordingly
+	- write content 
+	- layout page
 - first draft of UI design
 	- Update this roadmap accordingly
 - Design content delivery (e.g. template strategy, what is static) but don't implement anything
@@ -56,6 +32,7 @@ Potential additional features (not in 'roadmap' yet)
 - Resume
 	- Display hard coded content (basic)
 	- Admin to add new content (requiring Admin log in)
+
 
 
 ********* Finished Work *********
@@ -94,3 +71,20 @@ Remaining top level pages
 	- Code Examples
 - Implement routers
 - render pages using template
+
+Basic CSS
+- implement a static folder
+- create a css file that removes the link markings in the Title
+
+Create Subpages
+- creat pages and subpages 
+	- Games
+		- Tic Tac Toe
+	- Resumes
+		- Software Development
+		- Product Management
+		- Partner Management
+- Implement routers
+- render pages using template
+- format links so their hierarchy is obvious visually
+
