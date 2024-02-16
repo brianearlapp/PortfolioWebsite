@@ -1,31 +1,86 @@
+header {
+    position: sticky;
+    margin: 0px;
+}
+
 .titleLink {
     text-decoration: none;
 }
-.titleLink:link {
-    color: black;
-}
-.titleLink:visited {
-    color: black;
-}
-.titleLink:active {
-    color: black;
-}
-.titleLink:hover {
+.titleLink:link, .titleLink:visited, .titleLink:active, .titleLink:hover {
     color: black;
 }
 
-.menuDiv {
-    float: left;    
+.title {
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.navbar {
+    font-family: Arial;
+    overflow: hidden;
+    background-color: green;
+}
+
+.navbar a {
+    float: left;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: inherit;
+}
+
+.navbarDropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.navbarDropdown .navbarDropdownButton {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: white;
+    font-family: inherit;
+}
+
+.navbar a:hover, .navbarDropdownButton:hover {
+    background-color: red;
+}
+
+.navbarDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.navbarDropdownContent a {
+    float: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
     display: block;
-    width: 180px;
-    margin-left: 10px;
+    text-align: left;
 }
 
-.menuLink {
-    font-size: 20px;
+.navbarDropdownContent a:hover {
+    background-color: grey;
 }
 
-.menuSubLink {
-    padding-left: 15px;
-    font-size: 15px;
+.navbarDropdown:hover .navbarDropdownContent {
+    display: block;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    padding: 0px 10px;
 }
